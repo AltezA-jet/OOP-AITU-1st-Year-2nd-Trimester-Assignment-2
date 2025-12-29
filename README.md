@@ -1,2 +1,7 @@
 # OOP-AITU-1st-Year-2nd-Trimester-Assignment-2
 OOP-AITU-1st-Year-2nd-Trimester Temujin Gonchar’s Homework 2
+The purpose of this project is to create a Vehicle Management System that models different types of vehicles and their drivers. The system allows starting and stopping engines, displaying vehicle information, and managing driver details.
+The project demonstrates object-oriented programming principles, including inheritance, composition, and abstraction. Inheritance is used to create a hierarchy of vehicle types, composition is used to associate drivers with vehicles, and abstraction is applied through abstract classes and methods for engine operations.
+Inheritance greatly simplified the design by allowing shared attributes and methods to be placed in the Vehicle superclass, reducing code duplication. Method overriding enabled customization of behavior for each vehicle type, so that starting or stopping a car, truck, or motorcycle could be handled differently without changing the main program logic.
+
+One challenge I faced was correctly using protected and default access modifiers. Using protected allowed subclasses to access shared fields while still maintaining encapsulation, but I had to carefully consider which methods should remain accessible only within the package versus publicly.
